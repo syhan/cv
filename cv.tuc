@@ -37,16 +37,16 @@ if not utilitydata.job.positions then utilitydata.job.positions = { } end
 
 utilitydata.job.positions.collected={
  ["md:h"]={
-  [14]={
+  [13]={
    ["x"]=6157187,
   },
-  [26]={
+  [25]={
    ["x"]=6157187,
   },
-  [33]={
+  [32]={
    ["x"]=6157187,
   },
-  [50]={
+  [49]={
    ["x"]=6157187,
   },
  },
@@ -56,7 +56,7 @@ utilitydata.job.positions.collected={
   ["hs"]=28417720,
   ["p"]=1,
   ["x"]=6157187,
-  ["y"]=49159157,
+  ["y"]=50188015,
  },
  ["p:10"]={
   ["d"]=254368,
@@ -65,7 +65,7 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=17143251,
+  ["y"]=18476674,
  },
  ["p:11"]={
   ["d"]=254368,
@@ -74,7 +74,7 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=16234791,
+  ["y"]=17568214,
  },
  ["p:12"]={
   ["d"]=254368,
@@ -83,7 +83,7 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=15326331,
+  ["y"]=16659754,
  },
  ["p:13"]={
   ["d"]=254368,
@@ -92,34 +92,43 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=13509411,
+  ["y"]=14842834,
  },
  ["p:14"]={
-  ["d"]=254368,
-  ["h"]=654092,
-  ["hs"]=28417720,
-  ["p"]=1,
-  ["x"]=6157187,
-  ["y"]=10027566,
- },
- ["p:15"]={
   ["d"]=254368,
   ["h"]=654092,
   ["hs"]=28417720,
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=5734450,
+  ["y"]=13934374,
  },
- ["p:16"]={
+ ["p:15"]={
   ["d"]=254368,
   ["h"]=654092,
   ["hs"]=28417720,
   ["p"]=1,
   ["x"]=6157187,
-  ["y"]=4586009,
+  ["y"]=10284780,
+ },
+ ["p:16"]={
+  ["d"]=254368,
+  ["h"]=654092,
+  ["hs"]=28417720,
+  ["ls"]=1081500,
+  ["p"]=1,
+  ["x"]=7238687,
+  ["y"]=5823916,
  },
  ["p:17"]={
+  ["d"]=254368,
+  ["h"]=654092,
+  ["hs"]=28417720,
+  ["p"]=1,
+  ["x"]=6157187,
+  ["y"]=4630742,
+ },
+ ["p:18"]={
   ["d"]=254368,
   ["h"]=654092,
   ["hs"]=28417720,
@@ -133,7 +142,7 @@ utilitydata.job.positions.collected={
   ["hs"]=28417720,
   ["p"]=1,
   ["x"]=17489257,
-  ["y"]=48010716,
+  ["y"]=48994841,
  },
  ["p:3"]={
   ["d"]=254368,
@@ -141,7 +150,7 @@ utilitydata.job.positions.collected={
   ["hs"]=28417720,
   ["p"]=1,
   ["x"]=6157187,
-  ["y"]=39897012,
+  ["y"]=40713388,
  },
  ["p:4"]={
   ["d"]=254368,
@@ -150,7 +159,7 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=38748571,
+  ["y"]=39520214,
  },
  ["p:5"]={
   ["d"]=254368,
@@ -159,7 +168,7 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=35114731,
+  ["y"]=35886374,
  },
  ["p:6"]={
   ["d"]=254368,
@@ -167,7 +176,7 @@ utilitydata.job.positions.collected={
   ["hs"]=28417720,
   ["p"]=1,
   ["x"]=6157187,
-  ["y"]=30332449,
+  ["y"]=31059360,
  },
  ["p:7"]={
   ["d"]=254368,
@@ -176,7 +185,7 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=29184008,
+  ["y"]=29866186,
  },
  ["p:8"]={
   ["d"]=254368,
@@ -184,7 +193,7 @@ utilitydata.job.positions.collected={
   ["hs"]=28417720,
   ["p"]=1,
   ["x"]=6157187,
-  ["y"]=25310187,
+  ["y"]=25947632,
  },
  ["p:9"]={
   ["d"]=254368,
@@ -193,7 +202,7 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=24161746,
+  ["y"]=24754458,
  },
  ["page:1"]={
   ["h"]=55380990,
@@ -222,7 +231,7 @@ utilitydata.job.passes.collected={
   { 1, 0 },
  },
  ["itemgroup:itemize:4"]={
-  { 4, 0 },
+  { 5, 0 },
  },
  ["itemgroup:itemize:5"]={
   { 1, 0 },
@@ -277,7 +286,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["itemgroup:itemize"]={
-  { 0, 2, 1, 1, 4, 1 },
+  { 0, 2, 1, 1, 5, 1 },
  },
  ["linenote"]={
   { 0 },
@@ -312,7 +321,7 @@ utilitydata.structures.lists.collected={
    ["realpage"]=1,
    ["section"]=0,
    ["x"]=6157187,
-   ["y"]=40757994,
+   ["y"]=41607920,
   },
   ["titledata"]={
    ["label"]="section",
@@ -328,11 +337,11 @@ utilitydata.structures.lists.collected={
    ["realpage"]=1,
    ["section"]=0,
    ["x"]=6157187,
-   ["y"]=18128032,
+   ["y"]=19495005,
   },
   ["titledata"]={
    ["label"]="section",
-   ["title"]="Technical Skills",
+   ["title"]="Skills",
   },
  },
  {
@@ -344,7 +353,7 @@ utilitydata.structures.lists.collected={
    ["realpage"]=1,
    ["section"]=0,
    ["x"]=6157187,
-   ["y"]=11012347,
+   ["y"]=11303111,
   },
   ["titledata"]={
    ["label"]="section",
@@ -360,7 +369,7 @@ utilitydata.structures.lists.collected={
    ["realpage"]=1,
    ["section"]=0,
    ["x"]=6157187,
-   ["y"]=6719232,
+   ["y"]=6842247,
   },
   ["titledata"]={
    ["label"]="section",

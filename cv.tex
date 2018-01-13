@@ -3,17 +3,17 @@
 \setupinteraction[
 state=start,
 title={Curriculum Vitae}, 
-subtitle={Yihan SONG's CV},
+subtitle={Kathy Xiao's CV},
 subject={Curriculum Vitae},
-author={Song Yihan},
-keyword={Curriculum Vitae, Song Yihan, Yihan SONG, SAP, SAP Labs China, I063815, yihan.song@sap.com, 宋翊涵, 简历}
+author={Kathy Xiao},
+keyword={Curriculum Vitae, Kathy Xiao, Xiao Hongyue, SAP, SAP Labs China, kathy.xiao@sap.com, 肖弘月, 简历}
 ]
 \placebookmarks[subject][subject]
 \setupinteractionscreen[option=bookmark]		
-\useURL[email][mailto:syhannnn@gmail.com][][syhannnn@gmail.com]
+\useURL[email][mailto:xhykathy@gmail.com][][xhykathy@gmail.com]
 
 \setuppapersize[A4][A4]
-\setuplayout[topspace=0in, bottom=0in, height=12in, edge=0in, backspace=1.3in, width=6in, margin=2.5em]
+\setuplayout[topspace=0in, bottom=0in, height=12in, edge=0in, backspace=0.6in, width=7in, margin=2.5em]
 \setuppagenumbering[location=]
 \setupinmargin[align=right]
 \setupitemize[1][paragraph, atmargin, unpacked][symbol=a, indentnext=no]
@@ -25,7 +25,7 @@ keyword={Curriculum Vitae, Song Yihan, Yihan SONG, SAP, SAP Labs China, I063815,
 
 % customize head
 \definehead[CVHEAD][subject]
-\setuphead[CVHEAD][style=\bfa,after={\blank[medium]},number=no]
+\setuphead[CVHEAD][width=\hsize, style=\bfa,after={\blank[medium]},number=no]
 
 \definehead[SUBCVHEAD][subject]
 \setuphead[SUBCVHEAD][style=\bf,after={\blank[small]},before={\blank[small]},number=no]
@@ -34,68 +34,65 @@ keyword={Curriculum Vitae, Song Yihan, Yihan SONG, SAP, SAP Labs China, I063815,
 \starttext
 
 % title
-\midaligned{\framed[frame=off, align=middle]{{\bfa Song Yihan}\blank[medium]}}\blank[small]
+\midaligned{\framed[frame=off, align=middle]{{\bfa Xiao Hongyue}}}\blank[small]
 
 % contact info
 \startalignment[middle]
-{+86 180-1900-6500\crlf
+{+86 135-8565-7196\crlf
  \from[email]}
 \stopalignment
 
-
-\framed[frame=off, align=right, width=broad]
-{10 years programming experience on enterprise solution. Focus on developing reliable and robust business architecture and framework. Demonstrate enthusiastic and passion on technology and programming skills, self-discipline and hard-working, excellent troubleshooting capability. Proved a fast learner and talent team player.}
-
-
-\CVHEAD{Experience}
-\inmargin{\it 2014.1--\blank[small]Present}
-{\bf \blank[small] Architect \it SAP Labs China}
+\CVHEAD{\framed[width=7in, frame=off, background=color,backgroundcolor=gray, foreground=color,foregroundcolor=black ,align=flushleft]{Experience\hfill{\ss{SAP Labs China {\it 2012.4--Present}}}}}
+{\bf Project Management }
 \startitemize[joinedup, 1]
-\item SAP Leonardo Global Track & Trace, an innovative solution aims to provide real-time visibility and high volume event processing for traceability on top of SAP cloud platform. \crlf
-Responsible for the architecture of the core engine component, data ingestion and exposure based on fully customize and flexible data model on top of big data stack with scale out capability.
-\item SAP Transportation Resource Planning, a solution to provide high efficiency and optimized transportation resource optimization and forecast solution by leveraging SAP HANA in-memory capability. \crlf
-Response for designing the architect of the whole backend system, experienced on architecture evolution from PoC to a real product, build own REST framework for agile web development.
+\item Organize meeting to analysis project requirement, project planning and resource allocation
+\item Help colleagues solve their issues in time
+\item Host planning meeting, review meeting, retrospect meeting and daily scrum meeting, collect meeting minutes and arrange tasks
+\item Track project schedule and mitigate risks, help the scrum team successfully deliver to stakeholder and customer within a quick iteration period 
 \stopitemize
-\inmargin{\it 2010.8--\blank[small]2013.12}
-{\bf \blank[small] Developer \it SAP Labs China}
+{\bf Test and Quality Management}
 \startitemize[joinedup, 1]
-\item SAP Business One Analytic, a hybrid analytic solution to fully leverage SAP HANA in-memory calculation advantage tailed for SAP Business One scenario.\crlf
-Response for designing a replication server and database migration tool to mitigate data between Microsoft SQL Server and SAP HANA.
+\item Write test cases with project owner, collaboration with designer and developer on interaction and implementation detail
+\item Test plan management, software issue life-cycle management, quality assurance on different KPIs, e.g. performance, language, environment and usability, etc.
+\item Host customer and stakeholder acceptance test, maintain customer relationship and collect potential requirement for the next project phase.
 \stopitemize
-\inmargin{\it 2008.7--\blank[small]2010.7}
-{\bf \blank[small] Developer \it Augmentum, Inc.}
+{\bf Customer and Team Management}
 \startitemize[joinedup, 1]
-\item Developing a JMS messaging assess management system for a leading casino gaming organization. \crlf
-Response for casino gaming business process implementation. Experienced on continuous integration, database performance tuning and customer on-site support.
+\item Customer co-innovation and engagement, meeting arrangement and customer interview
+\item User story design, record video to be demonstrated both internal and external meetings and customer activity
+\item Team building, good at active team atmosphere and detail treatment, build trust by every team member
+\stopitemize
+
+\SUBCVHEAD{Projects}
+\startitemize[joinedup, 1]
+\item {\it 2017.10--Present} SAP Extended Warehouse Management, Pack outbound deliveries
+\item {\it 2016.12--2017.09} SAP Extended Warehouse Management, Pick by cart
+\item {\it 2015.08--2016.10} SAP Transportation Resource Planning 2.0, rail-car solution
+\item {\it 2014.05--2015.12} Engineering Chain Simulation go-live on Music Group
+\item {\it 2013.01--2014.06} Credit Insight co-innovation with ChemChina
+\item {\it 2012.02--2012.12} Mobile Work-flow Management 1.0 and 2.0
 \stopitemize
 
 % skills
-\CVHEAD{Skills}
+\SUBCVHEAD{Others}
 \startitemize[joinedup,2]
-\item Proficient in Object & Orient Design, Functional Programming and Database Modeling
-\item Familiar with Java, JavaScript, Python, Ruby, Scala, SQL, etc.
-\item Experience in Big Data stack, skilled in Spark, Kafka, Cassandra, ElasticSearch, CloudFoundry, AWS, etc.
-\item Skills on Linux shell scripting, Continuous Integration, git, Maven, etc.
-\item Domain knowledge on SAP ERP, EM, TM, etc.
+\item Scrum master, design thinking coach, Bikablo/Business Model Development and Innovation course certified
+\item President of dancing club, 200+ active members, help to build positive and health atmosphere for SAP who wins the greatest work place in China, organize daily activities and year-end show, got highlight and recognition from Global managers.
+\item Vital ambassador, spokesperson of SAP in magazine and WeChat  
+\item Spot award and mentor of early talent
 \stopitemize
 
 % education
-\CVHEAD{Education}
-\inmargin{\it 2004-\blank[small]2008}
-{{\bf Southeast University}, Nanjing\crlf
-Bachelor's Degree, Software Engineering}
+\CVHEAD{\framed[width=7in, frame=off, background=color,backgroundcolor=gray, foreground=color,foregroundcolor=black ,align=flushleft]{Education}}
+{{\it 2009.09--2012.04}~{\bf Shanghai JiaoTong University}~Master, Software Engineering}\crlf
+{{\it 2005.09--2009.06}~{\bf Shanghai University of Electric Power}~Bachelor, Electric and Automation Engineering}
 
-\CVHEAD{Language}
+\CVHEAD{\framed[width=7in, frame=off, background=color,backgroundcolor=gray, foreground=color,foregroundcolor=black ,align=flushleft]{Language & Skills}}
 \startitemize[joinedup,2]
-\item {\bf English}: CET-6, Full professional proficiency
+\item {\bf English}: CET-6
+\item ISTQB certified Tester
+\item JIRA, Microsoft Office, SAP GTP, Bugzilla, Redmine, Camtasia Studio, Photoshop
+\item Marathon National first-class athlete, popular chef in XiaChuFang
 \stopitemize
-
-\vfill
-
-\noindent
-\startalignment[middle]
-{\tfxx Last updated: \date~\bullet~<\from[email]>\crlf Powered by \ConTeXt}
-\stopalignment
-
 
 \stoptext

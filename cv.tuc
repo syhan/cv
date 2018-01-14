@@ -146,7 +146,7 @@ utilitydata.structures.lists.collected={
   },
   ["titledata"]={
    ["label"]="section",
-   ["title"]="\\framed [width=7in, frame=off, background=color,backgroundcolor=gray, foreground=color,foregroundcolor=black ,align=flushleft]{Experience\\hfill {\\ss {SAP Labs China {\\it 2012.4--Present}}}}",
+   ["title"]="\\framed [width=7in, frame=off, background=color,backgroundcolor=gray, foreground=color,foregroundcolor=black ,align=flushleft]{Experience\\hfill \\ss {SAP Labs China {\\it {2012.4--Present}}}}",
   },
  },
  {

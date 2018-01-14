@@ -3,10 +3,11 @@
 \setupinteraction[
 state=start,
 title={Curriculum Vitae}, 
-subtitle={Yihan SONG's CV},
+subtitle={Song Yihan's CV},
 subject={Curriculum Vitae},
 author={Song Yihan},
-keyword={Curriculum Vitae, Song Yihan, Yihan SONG, SAP, SAP Labs China, I063815, yihan.song@sap.com, 宋翊涵, 简历}
+openaction=FitHeight,
+keyword=Curriculum Vitae Song Yihan Yihan SONG syhannnn@gmail.com 宋翊涵 简历
 ]
 \placebookmarks[subject][subject]
 \setupinteractionscreen[option=bookmark]		
@@ -30,6 +31,7 @@ keyword={Curriculum Vitae, Song Yihan, Yihan SONG, SAP, SAP Labs China, I063815,
 \definehead[SUBCVHEAD][subject]
 \setuphead[SUBCVHEAD][style=\bf,after={\blank[small]},before={\blank[small]},number=no]
 %\showframe
+\language[en]
 
 \starttext
 
@@ -52,15 +54,15 @@ keyword={Curriculum Vitae, Song Yihan, Yihan SONG, SAP, SAP Labs China, I063815,
 {\bf \blank[small] Architect \it SAP Labs China}
 \startitemize[joinedup, 1]
 \item SAP Leonardo Global Track & Trace, an innovative solution aims to provide real-time visibility and high volume event processing for traceability on top of SAP cloud platform. \crlf
-Responsible for the architecture of the core engine component, data ingestion and exposure based on fully customize and flexible data model on top of big data stack with scale out capability.
-\item SAP Transportation Resource Planning, a solution to provide high efficiency and optimized transportation resource optimization and forecast solution by leveraging SAP HANA in-memory capability. \crlf
+Responsible for the architecture of the core engine component, including data ingestion and data exposure based on fully customize and flexible data model on top of big data stack with scale out capability, involved in project management, testing and landscape integration.
+\item SAP Transportation Resource Planning, a solution to provide high efficiency transportation resource optimization, forecast and analysis visibility solution by leveraging SAP HANA in-memory calculation capability. \crlf
 Response for designing the architect of the whole backend system, experienced on architecture evolution from PoC to a real product, build own REST framework for agile web development.
 \stopitemize
 \inmargin{\it 2010.8--\blank[small]2013.12}
 {\bf \blank[small] Developer \it SAP Labs China}
 \startitemize[joinedup, 1]
 \item SAP Business One Analytic, a hybrid analytic solution to fully leverage SAP HANA in-memory calculation advantage tailed for SAP Business One scenario.\crlf
-Response for designing a replication server and database migration tool to mitigate data between Microsoft SQL Server and SAP HANA.
+Response for designing a database replication and migration tool to do synchronization between Microsoft SQL Server and SAP HANA.
 \stopitemize
 \inmargin{\it 2008.7--\blank[small]2010.7}
 {\bf \blank[small] Developer \it Augmentum, Inc.}
@@ -75,7 +77,7 @@ Response for casino gaming business process implementation. Experienced on conti
 \item Proficient in Object & Orient Design, Functional Programming and Database Modeling
 \item Familiar with Java, JavaScript, Python, Ruby, Scala, SQL, etc.
 \item Experience in Big Data stack, skilled on Spark, Kafka, Cassandra, ElasticSearch, CloudFoundry, AWS, etc.
-\item Skills on Linux shell scripting, Continuous Integration, git, Maven, etc.
+\item Skills on Shell scripting, Linux, Continuous Integration, git, Maven, Markdown, etc.
 \item Domain knowledge on SAP ERP, EM, TM, etc.
 \stopitemize
 
@@ -94,7 +96,7 @@ Bachelor's Degree, Software Engineering}
 
 \noindent
 \startalignment[middle]
-{\tfxx Last updated: \date~\bullet~<\from[email]>\crlf Powered by \ConTeXt}
+{\tfxx Last updated: \date~\bullet~<\from[email]>\crlf Compiled by \ConTeXt}
 \stopalignment
 
 

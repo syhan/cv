@@ -40,13 +40,13 @@ utilitydata.job.positions.collected={
   [13]={
    ["x"]=6157187,
   },
-  [25]={
+  [26]={
    ["x"]=6157187,
   },
-  [32]={
+  [33]={
    ["x"]=6157187,
   },
-  [49]={
+  [50]={
    ["x"]=6157187,
   },
  },
@@ -65,7 +65,7 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=18476674,
+  ["y"]=18101440,
  },
  ["p:11"]={
   ["d"]=254368,
@@ -74,7 +74,7 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=17568214,
+  ["y"]=17192980,
  },
  ["p:12"]={
   ["d"]=254368,
@@ -83,7 +83,7 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=16659754,
+  ["y"]=16284520,
  },
  ["p:13"]={
   ["d"]=254368,
@@ -92,7 +92,7 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=14842834,
+  ["y"]=14467600,
  },
  ["p:14"]={
   ["d"]=254368,
@@ -101,7 +101,7 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=13934374,
+  ["y"]=13559140,
  },
  ["p:15"]={
   ["d"]=254368,
@@ -109,7 +109,7 @@ utilitydata.job.positions.collected={
   ["hs"]=28417720,
   ["p"]=1,
   ["x"]=6157187,
-  ["y"]=10284780,
+  ["y"]=10057665,
  },
  ["p:16"]={
   ["d"]=254368,
@@ -118,7 +118,7 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=5823916,
+  ["y"]=5744920,
  },
  ["p:17"]={
   ["d"]=254368,
@@ -126,7 +126,7 @@ utilitydata.job.positions.collected={
   ["hs"]=28417720,
   ["p"]=1,
   ["x"]=6157187,
-  ["y"]=4630742,
+  ["y"]=4591244,
  },
  ["p:18"]={
   ["d"]=254368,
@@ -142,7 +142,7 @@ utilitydata.job.positions.collected={
   ["hs"]=28417720,
   ["p"]=1,
   ["x"]=17489257,
-  ["y"]=48994841,
+  ["y"]=49034339,
  },
  ["p:3"]={
   ["d"]=254368,
@@ -150,7 +150,7 @@ utilitydata.job.positions.collected={
   ["hs"]=28417720,
   ["p"]=1,
   ["x"]=6157187,
-  ["y"]=40713388,
+  ["y"]=40901005,
  },
  ["p:4"]={
   ["d"]=254368,
@@ -159,7 +159,7 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=39520214,
+  ["y"]=39747329,
  },
  ["p:5"]={
   ["d"]=254368,
@@ -168,7 +168,7 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=35886374,
+  ["y"]=35205029,
  },
  ["p:6"]={
   ["d"]=254368,
@@ -176,7 +176,7 @@ utilitydata.job.positions.collected={
   ["hs"]=28417720,
   ["p"]=1,
   ["x"]=6157187,
-  ["y"]=31059360,
+  ["y"]=30417513,
  },
  ["p:7"]={
   ["d"]=254368,
@@ -185,7 +185,7 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=29866186,
+  ["y"]=29263837,
  },
  ["p:8"]={
   ["d"]=254368,
@@ -193,7 +193,7 @@ utilitydata.job.positions.collected={
   ["hs"]=28417720,
   ["p"]=1,
   ["x"]=6157187,
-  ["y"]=25947632,
+  ["y"]=25384781,
  },
  ["p:9"]={
   ["d"]=254368,
@@ -202,7 +202,7 @@ utilitydata.job.positions.collected={
   ["ls"]=1081500,
   ["p"]=1,
   ["x"]=7238687,
-  ["y"]=24754458,
+  ["y"]=24231106,
  },
  ["page:1"]={
   ["h"]=55380990,
@@ -321,7 +321,7 @@ utilitydata.structures.lists.collected={
    ["realpage"]=1,
    ["section"]=0,
    ["x"]=6157187,
-   ["y"]=41607920,
+   ["y"]=41765913,
   },
   ["titledata"]={
    ["label"]="section",
@@ -337,7 +337,7 @@ utilitydata.structures.lists.collected={
    ["realpage"]=1,
    ["section"]=0,
    ["x"]=6157187,
-   ["y"]=19495005,
+   ["y"]=19090148,
   },
   ["titledata"]={
    ["label"]="section",
@@ -353,7 +353,7 @@ utilitydata.structures.lists.collected={
    ["realpage"]=1,
    ["section"]=0,
    ["x"]=6157187,
-   ["y"]=11303111,
+   ["y"]=11046373,
   },
   ["titledata"]={
    ["label"]="section",
@@ -369,7 +369,7 @@ utilitydata.structures.lists.collected={
    ["realpage"]=1,
    ["section"]=0,
    ["x"]=6157187,
-   ["y"]=6842247,
+   ["y"]=6733627,
   },
   ["titledata"]={
    ["label"]="section",

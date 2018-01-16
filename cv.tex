@@ -2,15 +2,13 @@
 \setupcolors[state=start]	
 \setupinteraction[
 state=start,
-title={Curriculum Vitae}, 
-subtitle={Song Yihan's CV},
-subject={Curriculum Vitae},
-author={Song Yihan},
+title=Song Yihan's CV, 
+author=Song Yihan,
 openaction=FitHeight,
-keyword=Curriculum Vitae Song Yihan Yihan SONG syhannnn@gmail.com 宋翊涵 简历
+keyword=Curriculum Vitae Song Yihan syhannnn@gmail.com 宋翊涵 简历 Resume
 ]
-\placebookmarks[subject][subject]
-\setupinteractionscreen[option=bookmark]		
+\setupinteractionscreen[option=bookmark]	
+
 \useURL[email][mailto:syhannnn@gmail.com][][syhannnn@gmail.com]
 
 \setuppapersize[A4][A4]
@@ -25,11 +23,10 @@ keyword=Curriculum Vitae Song Yihan Yihan SONG syhannnn@gmail.com 宋翊涵 简�
 \setupwhitespace[medium]
 
 % customize head
-\definehead[CVHEAD][subject]
+\definehead[CVHEAD][section]
 \setuphead[CVHEAD][style=\bfa,after={\blank[medium]},number=no]
 
-\definehead[SUBCVHEAD][subject]
-\setuphead[SUBCVHEAD][style=\bf,after={\blank[small]},before={\blank[small]},number=no]
+\placebookmarks[CVHEAD][CVHEAD]
 %\showframe
 \language[en]
 
